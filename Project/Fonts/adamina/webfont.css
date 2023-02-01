@@ -1,0 +1,13 @@
+/* adamina-regular - latin */
+@font-face {
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('adamina-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Adamina Regular'), local('Adamina-Regular'),
+       url('adamina-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('adamina-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('adamina-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('adamina-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('adamina-v10-latin-regular.svg#Adamina') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,107 @@
+/**
+* Sabroso page style
+* @author Ruben Van der Kele,
+* @version mei 2019
+*/
+
+@import url('fonts.css');
+
+* {
+  box-sizing: border-box;
+}
+
+.promotie {
+  position: relative;
+  margin-bottom: 5.2em;
+  margin-top: 2.6em; /* items stacken (mogelijk met float??? -> responsive)*/
+}
+
+.promotie img {
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	width: 189.7em;
+  	height: 77.8em;
+}
+
+.promotie_box {
+  background-color: #FFF;
+  padding: 3em;
+  width: 60em;
+  border-radius: 1.5em; /*rounded corners css3*/
+  position: absolute; /* items stacken*/
+  bottom: 23.5em;
+  left: 128.1em;
+}
+
+.promotie_box p, .promotie_box h3 {
+	text-align: center;
+	align-self: center;
+}
+
+.contact_flex {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 41.7em;
+  width: 189.7em;
+  padding: 0;
+  margin: 0 0 5em 0;
+  background-color: #f2f2f2;
+}
+
+.contact1 {
+  width: 30%;
+  padding: 4.8em;
+}
+
+.contact2 {
+  width: 30%;
+  padding: 4.8em;
+}
+
+.contact3 {
+  width: 30%;
+  padding: 4.8em;
+}
+
+.dish_row_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 69.3em;
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+.dish_img > img {
+  width: 34.7em;
+  max-width:100%;
+}
+
+.empty_space {
+  width: 34.7em;
+  max-width: 100%;
+}
+
+.dish_flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 69.3em;
+  padding: 1.75em;
+  margin: 5.4em 0 0 0;
+}
+
+.dish_text {
+  width: 29.5em;
+  margin-top: 4.9em;
+  text-align: center;
+  align-self: center;
+  word-wrap: break-word; /*lijn van internet*/
+}

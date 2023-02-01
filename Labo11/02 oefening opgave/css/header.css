@@ -1,0 +1,70 @@
+/**
+* Header style
+* @author Ruben Van der Kelen
+*/
+/* general */
+
+.site__header {
+	background-color: white;
+}
+
+.header__content {
+	overflow: auto;
+	padding: 3.5rem 2rem;
+}
+
+/* logo */
+
+.logo {
+	display: block;
+	margin: 0;
+}
+
+/* tagline */
+
+.tagline {
+	color: #444;
+	font-family: Adamina, Georgia, "Times New Roman", serif;
+	font-size: 1.9rem;
+}
+
+.tagline__wrapper {
+	margin: 0 4rem;
+}
+
+.header__tagline :last-child {
+	margin-bottom: 0;
+}
+
+
+/* ===========================================
+	Put your layout code here
+	=========================================== */
+header> div>div{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.logo{
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+    justify-content: flex-start;
+     align-items: baseline;
+     position: 1
+
+
+}
+.tagline{
+    display: flex;
+    position: 2;
+    align-items: flex-end;
+    margin-right: 8.5rem;
+}
+header .social{
+    display: flex;
+    justify-content: flex-end;
+}
+.header__social ul {
+list-style: none;
+}

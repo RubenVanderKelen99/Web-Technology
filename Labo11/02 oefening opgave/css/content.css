@@ -1,0 +1,211 @@
+/**
+* Content styles
+* @author Ruben Van der Kelen
+*/
+
+/* elements */
+
+
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+}
+
+h2, h3, h4 {
+	font-family: Lato, Arial;
+}
+
+h2 {
+	font-size: 2.8rem;
+	font-weight: normal;
+	margin: 2rem 0;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.6rem;
+	font-style: italic; 
+	font-weight: normal;
+	margin-top: 2.8rem;
+	text-transform: uppercase;
+}
+
+/* lists */
+
+main ul {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding-left: 1.2em;
+	text-indent: -1.2em;
+}
+
+main li {
+	margin-bottom: 0.5rem;
+}
+
+main li:before {
+	content: "▪";
+	display: block;
+	float: left;
+	font-size: 1.4rem;
+	width: 1.2em;
+}
+
+ul.v-list li:before {
+	content: "✓";
+}
+
+/* classes */
+
+.title--black {
+	background-color: black;
+	color: white;
+	font-size: 3.2rem;
+	font-weight: 300;
+	line-height: 3;
+	padding: 0 5rem;
+	text-transform: uppercase;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.button--cta {
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+	display: inline-block;	
+	font-size: 1.6rem;
+	font-weight: bold;
+	margin-top: 1rem;
+	padding: 0.5rem 1rem;
+	padding-right: 2rem;
+	padding-top: 0.7rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+
+.button--cta a {
+	color: black;
+	text-decoration: none;
+}	
+
+.button--cta:hover a,
+.button--cta:focus a,
+.button--cta:active a {
+	color: white;
+}
+
+.button--cta:hover,
+.button--cta:focus,
+.button--cta:active {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+.button--cta::before {
+	content: "⟶ ";
+	position: relative;
+	top: -0.2rem;
+}
+
+.subtitle--bordered {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	margin-top: 1rem;
+	padding: 1rem 0;
+}
+
+/* layout */
+
+body {
+	background-color: black;
+	font-size: 1.4rem;
+	font-family: Muli, Lato, Arial;
+	margin: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 2rem;
+	max-width: 100rem;
+	min-width: 30rem;
+}
+
+/* main */
+
+main {
+	overflow: hidden;
+	padding-bottom: 6rem;
+	background-color: white;
+}
+
+main:not(.home) {
+	line-height: 1.8;
+}
+
+/* content */
+
+.main__content {
+	background-color: #F1F3F2;
+	overflow: hidden;
+	padding-bottom: 4rem;
+}
+
+/* social */
+
+ul.social {
+	padding: 0;
+	margin: 0;
+	text-indent: 0;
+}
+
+.social li {
+	margin-bottom: 0;
+}
+
+.social li:before {
+	content: "";
+	position: absolute;
+}
+
+.social a {
+	width: 3rem;	
+	display: block;
+}
+
+.social img {
+	width: 100%;	
+}
+
+
+/* ===========================================
+	Put your layout code here
+	=========================================== */
+.breads__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.breads__list  a{
+
+    margin-right: 1.8rem;
+    justify-content: flex-start;
+}
+.breads__list{
+	display: flex;
+    margin-left: auto; 
+}
+
+

@@ -1,0 +1,13 @@
+/*
+* Theme Name: Bakker Klaas
+* Version: 1.0.0
+* Author: Ruben Van der Kelen
+*/
+
+
+/* nice and clean */
+@import 'content.css';
+@import 'footer.css';
+@import 'generic.css';
+@import 'header.css';
+@import 'menus.css';

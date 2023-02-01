@@ -1,0 +1,9 @@
+#main a {
+	color: #930;
+}
+p.alternate > a {
+	background-color: #ff0;
+}
+ul#mainmenu > li.alternate > a {
+	color: #060;
+}

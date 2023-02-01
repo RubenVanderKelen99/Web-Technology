@@ -1,0 +1,43 @@
+/**
+* Generic styles
+* @author Ruben Van der Kelen
+*/
+
+/* elements */
+
+html {
+	font-size: 0.625em;  
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* classes */
+
+.structural {
+	position: absolute;
+	left: -9999px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+.ir {
+	display: block;
+	background-size: 100% 100%; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}

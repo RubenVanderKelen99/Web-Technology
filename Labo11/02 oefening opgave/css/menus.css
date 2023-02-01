@@ -1,0 +1,43 @@
+/**
+* Menus style
+* @author Ruben Van der Kelen
+*/
+
+
+nav ul {
+	list-style: none;
+	margin-top: 0;
+	padding-left: 0;
+	text-indent: 0;
+}
+
+nav li + li {
+	margin-left: 1rem;
+}
+
+nav a {
+	color: #666;
+	font-size: 1.2rem;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover, 
+nav a:focus, 
+nav .active a {
+	text-decoration: underline;
+}
+
+
+/* ===========================================
+	Put your layout code here
+	=========================================== */
+
+header ul{
+display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	width: 100%;
+}

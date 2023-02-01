@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A - basisoefeningen flexbox</title>
+	<meta charset="utf-8" />
+	<style>
+
+		* {
+			box-sizing: border-box;
+		}
+
+		#boxes {
+			background-color: #ddd;
+			margin: 0 auto;
+			max-width: 800px;
+		}
+
+		.box {
+			border: 1px solid #000;
+			color: #fff;		
+			margin: 1px 0;
+			padding: 0;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		.one {
+			background-color: #666547;
+			height: 100px;
+			line-height: 100px;
+		}
+
+		.two {
+			background-color: #fb2e01;
+			height: 90px;
+			line-height: 90px;
+		}
+
+		.three {
+			background-color: #6fcb9f;
+			height: 80px;
+			line-height: 80px;
+		}
+
+		.four {
+			background-color: #FFE28A;
+			color: #666547;
+			height: 70px;
+			line-height: 70px;
+		}
+
+		/* oefeningen reeks A */
+
+		@media screen and (min-width: 400px) { 
+			#boxes{
+				max-width: 10rem;
+			}
+			
+		}
+
+		@media screen and (min-width: 500px) { 
+			#boxes div{
+				width: 5rem;
+
+			}
+			#boxes {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: baseline;
+				max-width: 25rem;
+			}
+		}
+
+		@media screen and (min-width: 600px) { 
+			#boxes div{
+				width: 5rem;
+
+			}
+			#boxes {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: baseline;
+				max-width: 25rem;
+			}
+		}
+		
+
+		@media screen and (min-width: 700px) { 			
+			
+
+			.box {
+				flex-grow: 0;
+			}
+
+			.one {
+				 flex-grow: 1;
+			}
+
+			.two {
+				flex-grow: 2;
+			}
+
+			.three {
+				flex-grow: 3;
+			}
+
+			.four {
+				flex-grow: 4;
+			}
+			#boxes {
+				justify-content: flex-start;
+			}
+			.box{
+				flex-basis: auto ;
+			}
+		}
+
+		@media screen and (min-width: 800px) { 
+		.box {
+				
+				flex-basis: 0 ;
+			}
+		}
+
+		@media screen and (min-width: 900px) { 
+			#boxes{
+				padding-left: : 3rem;
+				padding-right: 3rem;
+			}
+		}
+
+		@media screen and (min-width: 1000px) { 
+			#boxes{
+				align-items: flex-start;
+
+			}
+			.three{
+				align-self: flex-end;
+			}
+		}
+
+		@media screen and (min-width: 1100px) { 
+
+			#boxes{
+				flex-direction: row-reverse;
+			}
+		}
+
+		@media screen and (min-width: 1200px) { 
+			.one {
+				order:1;
+			}
+			.two{
+				order:3;
+			}
+			.three{
+				order:2;
+			}
+			.four{
+				order:4;
+			}
+			
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+	<div id="assignment">
+		<p>CSS oefenblad: oefeningen op flexbox</p>
+		<ul>
+			<li>A &mdash; basisoefeningen flexbox</li>
+			<li><a href="reeks1B.html">B &mdash; eenvoudig responsive flexbox design</a></li>
+		</ul>
+		<p>Opgave A &mdash; de flex container</p>
+		<ol>
+			<li><strong>vanaf 400px</strong>: beperk de breedte van de blokken tot 100px - <a href="img/oplossingA1.png">screenshot</a></li>
+			<li><strong>vanaf 500px</strong>: verspreid ze maximaal over de breedte - <a href="img/oplossingA2.png">screenshot</a></li>
+			<li><strong>vanaf 600px</strong>: verspreid ze gelijkmatig over de breedte - <a href="img/oplossingA3.png">screenshot</a></li>
+			<li><strong>vanaf 700px</strong>: maak de blokken flexibel; laat het tweede blok 2x zo snel groeien als het eerste, het derde 3x zo snel en het laatste 4x; gebruik voor flex-basis auto - <a href="img/oplossingA4.png">screenshot</a></li>
+			<li><strong>vanaf 800px</strong>: idem, maar gebruik voor flex-basis 0 - <a href="img/oplossingA5.png">screenshot</a></li>
+			<li><strong>vanaf 900px</strong>: voeg nu 30px padding links en rechts toe aan de boxen; wat merk je? - <a href="img/oplossingA6.png">screenshot</a></li>
+			<li><strong>vanaf 1000px</strong>: plaats alle blokken tegen de bovenrand, behalve de derde; zet die tegen de onderrand - <a href="img/oplossingA7.png">screenshot</a></li>
+			<li><strong>vanaf 1100px</strong>: keer de volgorde om - <a href="img/oplossingA8.png">screenshot</a></li>
+			<li><strong>vanaf 1200px</strong>: verwissel 2 en 3 van plaats - <a href="img/oplossingA9.png">screenshot</a></li>
+		</ol>
+	</div>
+
+	<hr />
+
+	<div id="boxes">
+		<div class="box one">1</div>
+		<div class="box two">2</div>
+		<div class="box three">3</div>
+		<div class="box four">4</div>
+	</div>
+
+</body>
+</html>

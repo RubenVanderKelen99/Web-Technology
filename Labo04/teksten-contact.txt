@@ -1,0 +1,55 @@
+Some Theme
+Just another site
+
+Home
+Download
+Blog
+Sample Page
+Layout
+Typography
+Contact
+
+Contact
+You ar here: Home > Contact
+
+This Contact form is just for demo purpose. If you have any them related questions, please put your query in our support forum http://themes.com/support-forum/ 
+And if you have any related sales questions or if you just want to say hello, please send your message via our contact page http://themes.com/contact/
+
+Your Name (required)
+
+Your Email (required)
+
+Subject
+
+Your Message
+
+Extra question: option 1 option 2
+Send
+
+Contact Info
+Archalbot | Pokhara | Nepal
+Phone: (977) 985238979
+Fax: (977) 123-4567
+Email: themes@gmail.com
+Website: www.themes.com
+
+
+Text Widget
+Chocolate ice cream gummies jelly beans lemon drops. Pudding jujubes danish cheesecake. Sesame snaps candy sugar plum liquorice pastry tart dessert.
+
+Contact Information
+Archalbot | Pokhara | Nepal
+Phone: (977) 985238979
+Fax: (977) 123-4567
+Email: themes@gmail.com
+Website: www.themes.com
+
+Recent Posts
+Pastry macaroon tiramisu suga
+July 9, 2018
+Pie marzipan chupa chups 
+July 9, 2018
+Donut chocolate bar muffin
+July 9, 2018
+
+Copyright © 2019 Some Theme. Powered by Drupal. Theme: Some Theme by Some Designer.

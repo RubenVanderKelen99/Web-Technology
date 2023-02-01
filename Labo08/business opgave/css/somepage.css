@@ -1,0 +1,150 @@
+/**
+* somepage style
+* @author Ruben Van der Kelen
+*/
+/* ===========================================
+   Breadcrumb
+   =========================================== */
+
+#breadcrumb {
+	background-color: #B2C629;
+	color: #fff;
+	padding: 2rem 0;
+	
+}
+
+#breadcrumb a {
+	color: #fff;
+}
+
+#breadcrumb .current a {
+	text-decoration: underline;
+}
+
+#breadcrumb li + li::before {
+	content: "»";
+	margin: 0.5em; 
+}
+
+/* ===========================================
+   Main content
+   =========================================== */
+
+#content {
+	padding: 2rem 0;
+}
+
+#content div.left{
+	width: 60rem;
+	float: left;
+}
+
+#content h2 {
+	margin-bottom: 1.5rem;
+	padding-bottom: 0.8rem;
+	border-bottom: 1px solid #E7E6E6;
+	padding: 1.5rem 0 0.8rem 0;
+	line-height: normal	;
+	font-size: 2rem;
+}
+
+/* ===========================================
+   Main content > left column
+   =========================================== */
+
+/* general */
+
+#content img.left {
+	margin: 0 0.8rem 0.8rem 0;
+	border: 1px solid #999;
+	padding: 0.5rem;
+	float: left;
+}
+
+#content img.right {
+	margin: 0 0 0.8rem 0.8rem;
+	border: 1px solid #999;
+	padding: 0.5rem;
+	float: right; 
+}
+
+/* comments */
+
+.comment {
+	margin-bottom: 1rem;
+	padding: 1.5rem;
+	color: #666;
+}
+
+.comment:nth-of-type(even) {
+	background-color: #E8E8E8;
+}
+
+.comment:nth-of-type(odd) {
+	background-color: #F7F7F7;
+}
+
+.submitdate {
+	font-size: smaller;
+}
+
+/* form */
+
+#content form dt, #content form dd{
+	line-height: 2.4rem;
+	min-height: 2.4rem;
+	margin-bottom: 2rem;
+}
+
+#content input[type=text] {
+	width: 70%;
+}
+
+#content textarea {
+	width: 100%;
+}
+
+#content input[type=submit] {
+	padding: 0.5rem;
+	color: #666;
+	background-color: #F7F7F7;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+
+#content aside{
+	width: 30rem; 
+	float: right; 
+}
+/* ===========================================
+   Main content > aside
+   =========================================== */
+
+#content aside > * {
+	margin-bottom: 20px;
+}
+
+#content aside nav {
+	width: 25rem;
+	padding: 2.5rem;
+	background-color: #F9F9F9;
+	margin-bottom: 3rem;
+}
+
+#content aside nav li {
+	margin: 0 0 0.3rem 0;
+	padding: 0;
+}
+
+#content aside nav a {
+	display: block;
+	padding: 0.5rem 1rem 0.5rem 2rem;
+	background: url("../images/green_file.gif") no-repeat 1rem center #F9F9F9;
+	border-bottom: 1px dotted #666;
+}
+
+#content aside nav > h2 {
+	padding-top: 0;
+}
+

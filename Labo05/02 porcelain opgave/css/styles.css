@@ -1,0 +1,68 @@
+/*
+* Stylesheet for Porcelain
+* @author Ruben Van der Kelen
+*/
+
+	
+/*********************************************
+ * GENERAL
+ *********************************************/
+
+
+/*********************************************
+ * WRAPPER
+ *********************************************/
+
+
+/*********************************************
+ * HEADER
+ *********************************************/
+ 
+header {
+	position: relative; /* absolute-relative positioning */
+}
+	 
+/* main menu */
+
+/* logo */
+
+header h1 {
+	position: absolute; /* positioning h1 in header */
+	left: 2rem;
+	top: 4.5rem;
+}
+
+	
+/*********************************************
+ * MAIN
+ *********************************************/
+ 
+/* submenu */
+	
+#submenu {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ie-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 33%;
+	float: left;
+}
+
+/* content */
+	
+#content {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ie-box-sizing: border-box;
+	box-sizing: border-box;
+	float: right;
+	width: 67%;
+}
+	
+		
+/*********************************************
+ * FOOTER
+ *********************************************/
+	

@@ -1,0 +1,26 @@
+/**
+ * Blog stylesheet for Mutw
+ * @author Ruben Van der Kelen
+ */
+
+
+/* =============================================
+ * BLOG PAGE - GENERAL
+ =============================================== */
+
+/* columns */
+
+section.column {
+	float: left;
+	max-width: 65%;
+}
+
+aside.column {
+	float: left;
+	max-width: 35%;
+}
+
+/* =============================================
+ * ASIDE
+ =============================================== */
+

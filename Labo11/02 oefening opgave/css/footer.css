@@ -1,0 +1,65 @@
+/**
+* Footer style
+* @author Ruben Van der Kelen
+*/
+
+footer {
+	border-top: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+footer .wrapper {
+	color: white;
+	overflow: auto;
+	padding-bottom: 3rem; 
+	padding-top: 2rem; 
+	text-align: center;
+}
+
+footer .wrapper > section {
+	margin-bottom: 5rem;
+	text-align: left;
+}
+
+footer .wrapper h3 {
+	font-family: Adamina, Georgia, "Times New Roman", serif;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+}
+
+footer .wrapper ul {
+	list-style: none;	
+	padding: 0;
+	text-indent: 0;
+}
+
+footer .wrapper ul:not(.social) li {
+	margin: 1.4rem 0;
+}
+
+footer .wrapper a {
+	color: white;
+	text-decoration: none;
+}
+
+footer .wrapper a:hover {
+	text-decoration: underline;
+}
+
+
+/* ===========================================
+	Put your layout code here
+	=========================================== */
+footer .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+footer .wrapper section{
+    display:block;
+}
+footer .social   {
+	display: flex;
+	flex-wrap:  row;
+}

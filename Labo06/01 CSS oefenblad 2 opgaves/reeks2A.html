@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A - box model</title>
+	<meta charset="utf-8" />
+	<style>
+
+		html {
+			font-size: 62.5%;
+		}
+		body {
+			font-size: 1.6rem;
+		}
+		#wrapper * {
+			margin: 0;
+			padding: 0;
+			font-family: verdana, arial, sans-serif;
+		}
+		#wrapper {
+			width: 80rem;
+			border: 0.5rem black solid;
+			font-size: 1.2rem;
+			background-color: #ddd;
+			margin: 2rem;
+			padding: 2rem;
+		}
+		#wrapper h1 {
+			background-color: red;
+			color: white;
+		}
+		#wrapper h2 {
+			background-color: black;
+			color: white;
+		}
+		#par1 {
+			background-color: yellow;
+		}
+		#par2 {
+			background-color: yellow;
+		}
+		#wrapper ul {
+			background-color: red;
+		}
+		#wrapper h3 {
+			background-color: red;
+			font-size: 1.2rem;
+			font-weight: normal;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<div id="assignment">
+		<p>CSS oefenblad reeks 2: oefeningen op properties en waarden</p>
+		<ul>
+			<li>A - box model</li>
+			<li><a href="reeks2B.html">B - image replacement</a></li>
+		</ul>
+		<p>Opgave A (<a href="img/ss.png">screenshot eindresultaat</a>):</p>
+		<ol id="lijst2">
+			<li>geef de h1 een padding van 20px</li>
+			<li>de h2 is 600px breed, en heeft een padding van 10px boven/onder en 30px links/rechts</li>
+			<li>maak de eerste paragraaf even breed als de h2; margin en padding blijven 0</li>
+			<li>maak de tweede paragraaf even breed als de h2; de rand moet 3px rondom zijn</li>
+			<li>maak de ul 460px breed, stel de linkermargin in op 50px en de bovenmargin op 10px, en geef het een padding van 15px overal, behalve links, daar is de padding 25px</li>
+			<li>maak de li's in de ul een linkerpadding van 20px</li>
+			<li>geef de h3 een marge rondom van 30px; de padding is 10px</li>
+			<li>centreer de wrapper horizontaal</li>
+		</ol>
+	</div>
+
+	<hr />
+	<div id="wrapper">
+		<h1>Deze hoofding is ingesteld op een breedte van 100%.</h1>
+		<h2>Deze hoofding is ingesteld op een breedte van 600 pixels. Padding links rechts = 30pixels. De totale breedte is dus 660 pixels.</h2>
+		<p id="par1">
+			Deze paragraaf is even breed als de h2. Padding en margin = 0.
+		</p>
+		<p id="par2">
+			Deze paragraaf is ook even breed als de h2. Rand rondom = 3px.
+		</p>
+		<ul>
+			<li>deze unordered list</li>
+			<li>is ingesteld op een breedte van 460 pixels (wat is de totale breedte?)</li>
+			<li>met een linkermarge van 50px, een bovenmarge van 10px en een ondermarge van 20px</li>
+			<li>en een padding van 10px, behalve links, daar is het 25px</li>
+			<li>de li's hebben een linkerpadding van 20px</li>
+		</ul>
+		<h3>
+			Deze h3 heeft een marge van 20 pixels; de padding is 10px. Merk op hoe de margin optelt bij de padding van de parent!
+		</h3>
+	</div>
+</body>
+</html>

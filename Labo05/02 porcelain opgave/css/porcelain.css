@@ -1,0 +1,24 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+}
+.wrapper {
+	min-width: 64rem;
+	max-width: 96rem;
+	margin-right: auto;
+    margin-left: auto;
+}
+header {
+	height: 18rem;
+}
+#mainmenu > li {
+	display: inline-block;
+}
+footer {
+	text-align: center;
+	vertical-align: middle;
+	height: 3rem;
+	line-height: 3rem;
+}

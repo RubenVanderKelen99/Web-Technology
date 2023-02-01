@@ -1,0 +1,36 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: Arial, Verdana, sans serif;
+	font-size: 1.6rem;
+}
+p {
+	font-size: 1.2rem ;
+}
+h3 {
+	font-style: italic;	
+}
+.keyword {
+	font-weight: bold;
+}
+h2 {
+	text-transform: uppercase;
+}
+#content a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #b65216;
+}
+#content a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #ee6a1b;
+}
+h1 {
+	font-size: 3.8rem;
+	font-family: Georgia;
+}
+#content p {
+	margin: 1.5px;
+}

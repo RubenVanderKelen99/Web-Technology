@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E - stapelvolgorde</title>
+	<meta charset="utf-8" />
+	<style>
+
+		/* oplossing */
+
+
+
+		/* gegeven CSS */
+
+		#contentWrapper * {
+			margin: 0;
+			padding: 0;
+		}
+
+		#contentWrapper {
+			margin: 30px auto 0 auto;
+			position: relative;
+			width: 800px;
+			height: 400px;
+			border: 2px dotted black;
+			overflow: hidden;
+		}
+
+		#contentWrapper p {
+			filter:alpha(opacity=25);
+			-moz-opacity:0.25;
+			-khtml-opacity: 0.25;
+			opacity: 0.25;
+			line-height: 2;
+			letter-spacing: 0.5em;
+		}
+
+		#table {
+			position: absolute;
+			left: 50px;
+			top: 35px;
+			width: 700px;
+			z-index: -1;
+		}
+
+		#card1 {
+			position: absolute;
+			left: 385px;
+			top: 150px;
+			z-index: 4;
+		}
+
+		#card2 {
+			position: absolute;
+			left: 330px;
+			top: 150px;
+			z-index: 2;
+		}
+
+		#card3 {
+			position: absolute;
+			left: 360px;
+			top: 150px;
+			z-index: 3;
+		}
+
+		#card4 {
+			position: absolute;
+			left: 300px;
+			top: 150px;
+			z-index: 1;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<div id="assignment">
+		<p>CSS oefenblad reeks 1: oefeningen op positionering</p>
+		<ul>
+			<li><a href="reeks1A.html">A - centreren</a></li>
+			<li><a href="reeks1B.html">B - relatieve positionering</a></li>
+			<li><a href="reeks1C.html">C - (relatief-)absolute positionering</a></li>
+			<li><a href="reeks1D.html">D - fixed positionering</a></li>
+			<li>E - stapelvolgorde</li>
+		</ul>
+		<p>CSS oefenblad reeks 2: oefeningen op float en clear</p>
+		<ul>
+			<li><a href="reeks2A.html">A - &eacute;&eacute;n element floaten</a></li>
+			<li><a href="reeks2B.html">B - clear en clearfix</a></li>
+			<li><a href="reeks2C.html">C - meerdere elementen floaten</a></li>
+			<li><a href="reeks2D.html">D - header, footer, drie kolommen</a></li>
+		</ul>
+		<p>Opgave E (<a href="img/oplossing1E.jpg">screenshot</a>):</p>
+		<ol id="lijst2">
+			<li>plaats het spelbord onder de tekst</li>
+			<li>plaats de spelkaarten in de juiste volgorde</li>
+		</ol>
+	</div>
+
+	<hr />
+
+	<div id="contentWrapper">
+		<p>
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+			P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R P O K E R
+		</p>
+		<img src="img/pokertable.jpg" alt="poker table" id="table" />
+		<img src="img/card2R.png" alt="queen of hearts" id="card2" />
+		<img src="img/card3R.png" alt="jack of spades" id="card3" />
+		<img src="img/card4R.png" alt="seven of spades" id="card4" />
+		<img src="img/card1R.png" alt="king of hearts" id="card1" />
+	</div>
+
+</body>
+</html>

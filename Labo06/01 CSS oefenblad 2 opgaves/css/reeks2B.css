@@ -1,0 +1,60 @@
+a#lnk1{
+  display: block;
+  width: 12rem; 
+  height: 6rem; 
+  white-space: nowrap; 
+  text-indent: 100%; 
+  overflow: hidden;  
+  background-image: url(img/lnk1Normal.jpg);
+  background-size: 100% 100%;
+}
+a#lnk1:hover{
+  display: block; 
+  width: 12rem; 
+  height: 6rem; 
+  white-space: nowrap; 
+  text-indent: 100%; 
+  overflow: hidden;  
+  background-image: url(img/lnk1Over.jpg);
+  background-size: 100% 100%; 
+}
+a#lnk2{
+    display: block;
+  width: 12rem; 
+  height: 6rem; 
+  white-space: nowrap; 
+  text-indent: 100%; 
+  overflow: hidden;  
+  background-image: url(img/lnk2Normal.jpg);
+  background-size: 100% 100%;
+}
+a#lnk2:hover{
+  display: block; 
+  width: 12rem; 
+  height: 6rem; 
+  white-space: nowrap; 
+  text-indent: 100%; 
+  overflow: hidden;  
+  background-image: url(img/lnk2Over.jpg);
+  background-size: 100% 100%; 
+}
+a#lnk3{
+  display: block;
+  width: 12rem; 
+  height: 6rem; 
+  white-space: nowrap; 
+  text-indent: 100%; 
+  overflow: hidden;  
+  background-image: url(img/lnk3Normal.jpg);
+  background-size: 100% 100%;
+}
+a#lnk3:hover{
+  display: block; 
+  width: 12rem; 
+  height: 6rem; 
+  white-space: nowrap; 
+  text-indent: 100%; 
+  overflow: hidden;  
+  background-image: url(img/lnk3Over.jpg);
+  background-size: 100% 100%; 
+}

@@ -1,0 +1,9 @@
+a:hover {
+	background-color: #ff0;
+}
+h3::first-letter {
+	color: #f00;
+}
+#main p::first-line {
+	color: #009;
+}

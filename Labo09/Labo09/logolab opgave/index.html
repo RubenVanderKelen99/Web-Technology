@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Het LogoLab</title>
+	<meta charset="utf-8" />
+	<style>
+
+	.structural {
+    position: absolute;
+    left: -9999px;
+	}
+
+	* {
+		margin: 0; 
+		padding: 0; 
+		-webkit-box-sizing: border-box; 
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.clearfix:after{
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+
+	@media (min-width: 66.25rem){
+	body {
+	    font-family: "Trebuchet MS", trebuchet, Arial, Verdana, sans-serif;
+	    font-size: 0.625em;
+	}
+
+	div {
+	    margin: auto;
+	    min-width: 32rem;
+	    max-width: 65rem;
+	}
+
+	header {
+	    background-image: url("img/header.jpg");
+	    background-repeat: repeat-x;
+	    height: 28rem;
+	    margin-bottom: 1rem; 
+	    
+	}
+
+	header > div {
+	    background-image: url("img/einstein.png");
+	    background-repeat: no-repeat;
+	    background-position: right;
+	    height: 37rem; 
+	    margin-bottom: 0rem;
+	    padding-bottom: 0rem;  
+	}
+
+	header  h1 {
+	    display: block;
+	    white-space: nowrap;  
+	    text-indent: 100%;
+	    background-size: 100%;
+	    overflow: hidden;
+	    max-width: 19rem;
+	    height: 9rem;
+	    background-image: url("logo.png");
+	    background-repeat: no-repeat;
+	    margin-top: 0rem;
+	    float: left;	    	    
+	}
+
+	header  li {
+	    display: inline-block;	    
+	}
+
+	header ul {
+	    margin-top: 2.5rem;
+	    float: right;
+	}
+
+	header li a {	    
+	    text-decoration: none;
+	    margin: 0.5rem;
+	    color: white;
+	    font-size: 1rem;
+	    padding: 0.5rem;	    
+	}
+
+	header li a:hover, header li.active {
+	    background-color: #74ac37;
+	    padding: 0.5rem;
+	    border-radius: 0.5rem;
+	}
+
+	header p {	    
+	    color: white;
+	    font-size: 2.5rem; 
+	    float: left;
+	    padding-top: 2rem;
+	    max-width: 45rem;
+	    clear: both;	    
+	}
+
+
+	.workItem {
+	    max-width: 19.5rem;
+	    float: left;
+	    margin-right: 2.5rem;
+	}
+
+	.workItem .more{
+	    color: white;
+	    background-color: #74ac37;
+	    float: right;
+	    font-size: 0.9rem;
+	    padding: 0.8rem;
+	    margin-top: 0.6rem;
+	    padding-top: 0.6rem;
+	    padding-bottom: 0.6rem;
+	    border-radius: 0.3rem;
+	    font-weight: bol
+	}
+
+	.workItem a {
+	    text-decoration: none;
+	}
+
+	#content h3 {
+	    font-size: 1.1rem;
+	    text-decoration: none;
+	    color: black;
+	    font-family: Verdana;
+	    margin-top: 0.5rem;
+	    margin-bottom: 0.5rem; 
+	}
+
+	#content h3 a {
+	    text-decoration: none;
+	   	   color: black;
+	}
+
+	#content p {
+	    font-size: 0.7rem;
+	  }
+
+	#callToAction h2 {
+	    display: block;
+	    background-size: 100%;
+	    text-indent: -999999rem;
+		white-space: nowrap;
+	    overflow: hidden;
+	    max-width: 20rem;
+	    background-image: url(img/bestel-sprite.gif);
+	    background-repeat: no-repeat;
+	    height: 7.2rem;
+	    margin-bottom: 0.5rem;
+	}
+
+	#ctaTwitter {
+	    
+	    display: block;
+	    background-size: 100%;
+	    max-width: 20rem;
+	    overflow: hidden;
+	    background-image: url(img/ctaTwitter.gif);
+	    background-repeat: no-repeat;
+	    height: 5.35rem; 
+	    margin-bottom: 0.5rem;	        
+	}
+
+	#ctaFacebook {	    
+	    display: block;
+	    background-size: 100%;
+	    max-width: 20rem;
+	    overflow: hidden;
+	    background-image: url(img/ctaFacebook.gif);
+	    background-repeat: no-repeat;
+	    height: 5.35rem; 
+	    margin-bottom: 0.5rem; 	        
+	}
+
+	#ctaNetlog {	    
+	    display: block;
+	    background-size: 100%;
+	    max-width: 20rem;
+	    overflow: hidden;
+	    background-image: url(img/ctanetlog.gif);
+	    background-repeat: no-repeat;
+	    height: 5.35rem; 
+	    float: right;
+	    margin-right:1rem;
+	}
+
+	#ctaTwitter {
+	    padding-top:1.8rem;
+	    padding-left: 7rem; 
+	    font-size: 1rem;
+	}
+
+	#ctaTwitter a {
+	    color:black;
+	}
+
+	#ctaFacebook {
+	    padding-top:1.8rem;
+	    padding-left: 7rem; 
+	    font-size: 1rem;
+	}
+
+	#ctaFacebook a {
+	    color:black;
+	}
+
+	#ctaNetlog {
+	    padding-top:1.8rem;
+	    padding-left: 7rem; 
+	    font-size: 1rem;
+	}
+
+	#ctaNetlog a {
+	    color:black;
+	}
+
+	footer{
+	    margin-top: 1.5rem;
+	    color: #585858;
+	    background-color: #EBEBEB;
+	}
+
+	footer h3{
+	    padding-top: 1.5rem;
+	    font-size: 1.2rem;
+	}
+
+	footer ul{
+	    margin-top: 1rem;
+	}
+
+	footer li {
+	    padding-bottom: 0.4rem;
+	    width: 15rem;	    
+	    font-size: 0.8rem;
+	    float: left;
+	    list-style-type: none;
+	}
+
+	footer li a {
+	    display: block;
+	    width: 12rem;
+	    padding-bottom: 0.5rem;
+	    overflow: hidden;
+	    border-bottom: 0.01rem solid #585858;
+	    text-decoration: none;
+	    font-size: 0.9rem;
+	    color: #585858;
+	    border-color: #888888;
+	}
+
+	</style>
+
+
+</head>
+<body>
+
+	<header>
+
+		<div>
+			<a href="#" title="Welkom bij het LogoLab!"><h1>LogoLab, grafisch ontwerp</h1></a>
+
+			<nav>
+				<h2 class="structural">Hoofdnavigatie</h2>
+				<ul>
+					<li class="active"><a href="#" title="Home">Home</a></li>
+					<li><a href="#" title="Werkwijze">Werkwijze</a></li>
+					<li><a href="#" title="Ontwerpen">Ontwerpen</a></li>
+					<li><a href="#" title="Bestellen">Bestellen</a></li>
+					<li><a href="#" title="Contact">Contact</a></li>
+				</ul>
+			</nav>
+			<p>&ldquo;Wij maken <strong>logo ontwerpen</strong> die <strong>tijdloos</strong> en bovendien <strong>betaalbaar</strong> zijn&rdquo;</p>
+
+		</div>
+
+	</header>
+
+
+	<div id="content" class="clearfix">
+
+		<div>
+
+			<section id="recentWork">
+
+				<h2 class="structural">Recent Werk</h2>
+
+				<section class="workItem">
+					<a href="#" title="Logo ontwerp voor Disco Train"><img src="img/logo-discotrain.png" alt="Logo Disco Train" title="Logo Disco Train" width="310" height="165" /></a>
+					<h3><a href="#" title="Logo ontwerp voor Disco Train">Logo ontwerp voor Disco Train</a></h3>
+					<p>
+						Rij mee op de Disco Train, het nieuwe party concept waar je in Brussel
+						op de trein stapt en vier uur later opgewarmd voor de party in London toekomt.
+						Het logo is vrolijk, kleurrijk en herkenbaar; Dit om in de sfeer van de avond te blijven
+					</p>
+					<a href="#" title="Lees meer over Logo ontwerp voor Disco Train" class="more">Lees Meer</a>
+				</section>
+
+				<section class="workItem">
+					<a href="#" title="Logo ontwerp voor EverCool"><img src="img/logo-evercool.png" alt="Logo EverCool" title="Logo Ever Cool" width="310" height="165" /></a>
+					<h3><a href="#" title="Logo ontwerp voor EverCool">Logo ontwerp voor EverCool</a></h3>
+					<p>
+						EverCool, marktleider in koelsystemen, werd voorzien van een nieuw logo.
+						Uiteraard werd voor het basiskleur blauw gekozen.
+					</p>
+					<a href="#" title="Lees meer over Logo ontwerp voor EverCool" class="more">Lees Meer</a>
+				</section>
+
+			</section>
+
+			<section id="callToAction">
+
+				<h2><a href="#" title="Bestel nu uw nieuwe logo">Bestel nu uw nieuwe logo</a></h2>
+
+				<h2 class="structural">Sociale links</h2>
+				<ul>
+					<li id="ctaTwitter">
+						Volg ons op Twitter
+						<a href="#" title="Volg ons op Twitter">twitter.com/logolabo</a>
+					</li>
+					<li id="ctaFacebook">
+						Word vriend op Facebook
+						<a href="#" title="Word vriend op Facebook">facebook.com/logolabo</a>
+					</li>
+					<li id="ctaNetlog">
+						Word fan op Netlog
+						<a href="#" title="Word fan op Netlog">nl.netlog.com/logolabo</a>
+					</li>
+				</ul>
+
+			</section>
+
+		</div>
+
+	</div>
+
+	<footer class="clearfix">
+		<h2 class="structural">Voetlinks</h2>
+	
+		<div class="col">
+			<ul>
+				<li>
+					<h3>Navigatie</h3>
+					<ul>					
+						<li><a href="#" title="Home">Home</a></li>
+						<li><a href="#" title="Werkwijze">Werkwijze</a></li>
+						<li><a href="#" title="Ontwerpen">Ontwerpen</a></li>
+						<li><a href="#" title="Bestellen">Bestellen</a></li>
+						<li><a href="#" title="Contact">Contact</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<h3>Informatie</h3>
+					<ul>
+						<li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
+						<li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+						<li><a href="#" title="FAQ">FAQ</a></li>
+						<li><a href="#" title="Links">Links</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<h3>Word vriend</h3>
+					<ul>
+						<li><a href="#" title="Twitter">Twitter</a></li>
+						<li><a href="#" title="Facebook">Facebook</a></li>
+						<li><a href="#" title="Netlog">Netlog</a></li>		
+					</ul>
+				</li>
+				
+				<li>
+					<h3>Recente ontwerpen</h3>
+					<ul>
+						<li><a href="#" title="Disco Train">Disco Train</a></li>
+						<li><a href="#" title="Evercool">Evercool</a></li>
+						<li><a href="#" title="Terrace Ponds">Terrace Ponds</a></li>
+						<li><a href="#" title="NinjaTune">NinjaTune</a></li>
+						<li><a href="#" title="Hatao">Hatao</a></li>
+						<li><a href="#" title="Berluut">Berluut</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

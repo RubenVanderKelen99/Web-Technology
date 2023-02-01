@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C - (relatief-)absolute positionering</title>
+	<meta charset="utf-8" />
+	<style>
+
+		/* oplossing */
+
+
+
+		/* gegeven CSS */
+
+		#contentWrapper * {
+			margin: 0;
+			padding: 0;
+		}
+
+		#contentWrapper {
+			margin: 30px auto 0 auto;
+			width: 371px;
+			height: 461px;
+			border: 2px dotted black;
+			position: relative;
+		}
+
+		#mouth {
+			position: absolute;
+			top: 350px;
+			left: 100px;
+		}
+		#nose{
+			position: absolute;
+			top: 275px;
+			left: 125px;
+		}
+		#eyes{
+			position: absolute;
+			top: 150px;
+			left: 25px;
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+	<div id="assignment">
+		<p>CSS oefenblad reeks 1: oefeningen op positionering</p>
+		<ul>
+			<li><a href="reeks1A.html">A - centreren</a></li>
+			<li><a href="reeks1B.html">B - relatieve positionering</a></li>
+			<li>C - (relatief-)absolute positionering</li>
+			<li><a href="reeks1D.html">D - fixed positionering</a></li>
+			<li><a href="reeks1E.html">E - stapelvolgorde</a></li>
+		</ul>
+		<p>CSS oefenblad reeks 2: oefeningen op float en clear</p>
+		<ul>
+			<li><a href="reeks2A.html">A - &eacute;&eacute;n element floaten</a></li>
+			<li><a href="reeks2B.html">B - clear en clearfix</a></li>
+			<li><a href="reeks2C.html">C - meerdere elementen floaten</a></li>
+			<li><a href="reeks2D.html">D - header, footer, drie kolommen</a></li>
+		</ul>
+		<p>Opgave C (<a href="img/oplossing1C.jpg">screenshot</a>):</p>
+		<ol id="lijst2">
+			<li>gebruik absolute positionering om een gezicht te maken binnen het kader (tip: gebruik je developer tools om de co&ouml;rdinaten te finetunen)</li>
+		</ol>
+	</div>
+
+	<hr />
+
+	<div id="contentWrapper">
+		<img src="img/mouth.jpg" alt="mouth" id="mouth" />
+		<img src="img/nose.jpg" alt="nose" id="nose" />
+		<img src="img/eyes.jpg" alt="eyes" id="eyes" />
+	</div>
+
+</body>
+</html>

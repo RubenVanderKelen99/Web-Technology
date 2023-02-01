@@ -1,0 +1,60 @@
+@import url('fonts.css');
+
+.button_cta a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #808080;
+  padding: 1em 2em 1em 2em;
+  font-family: 'Karla', sans-serif;
+}
+
+.button_cta a:hover {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #9900cc;
+  padding: 1em 2em 1em 2em;
+  font-family: 'Karla', sans-serif;
+}
+
+.button_cta a:hover > p {
+  border: 1px solid #9900cc;
+  color: #9900cc;
+  width: 8em;
+  height: 1.8em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button_cta a > p {
+  border: 1px solid #808080;
+  width: 8em;
+  height: 1.8em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 3em;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.title_small {
+  font-size: 1.6em;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.subtitle {
+	font-size: 1.2em;
+	color: #808080;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.subtitle_black {
+  font-size: 1.2em;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.description {
+	font-size: 1.4em;
+	font-family: 'Karla', sans-serif;
+}

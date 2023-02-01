@@ -1,0 +1,171 @@
+/**
+* Home styles
+* @author Ruben Van der Kelen
+*/
+
+/* ===========================================
+   Content
+   =========================================== */
+
+h2 {
+	font-size: 3.2rem;
+	padding: 0 5rem;
+}
+
+/* home boxes */
+
+.main__homeboxes {
+	background-color: #F1F3F2;
+	overflow: auto;
+	padding-bottom: 2rem;
+}
+
+.homebox {
+	overflow: hidden;
+	margin-bottom: 2rem;
+}
+
+.homebox__title {
+	margin: 0;
+}
+
+.homebox h3:first-of-type {
+	padding-top: 2rem;
+	margin-top: 0;
+}
+
+/* bottom links */
+
+.main__bottomlinks {
+	overflow: hidden;
+	background-color: #F1F3F2;
+	padding-bottom: 2rem;
+}
+
+.bottomlink {
+	background-color: white;	
+	border: 2px solid black;
+	color: black;	
+	display: block;
+	margin: 0;
+	margin-bottom: 1rem;
+	padding: 1.6rem;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s; 
+}
+
+.bottomlink > p {
+	margin-top: 0;
+}
+
+.bottomlink > :last-child {
+	margin-bottom: 0;
+}
+
+.bottomlink > p:first-child {
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.bottomlink:hover, 
+.bottomlink:focus,
+.bottomlink:active {
+	background-color: black;
+	color: white;
+}
+
+/* breads of the week */
+
+.main__breads {
+	background-color: white;
+	overflow: hidden;
+	padding: 2rem 0;
+}
+
+.main__breads h2 {
+	margin-top: 0;
+	margin-bottom: 2rem;
+	float: left;
+}
+
+.breads__period {
+	text-transform: uppercase;
+}
+
+.list__bread {
+	border: 2px solid black;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s;
+	width: 23%;
+}
+
+.bread__type, .bread__type a {
+	text-transform: uppercase;
+	white-space: nowrap;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	text-decoration: none;
+	font-size: 1.4rem;
+}
+
+.bread__description {
+	font-weight: normal;
+}
+
+.list__bread:hover, 
+.list__bread:focus,
+.list__bread:active {
+	background-color: black;
+	color: white;
+}
+
+
+/* ===========================================
+	Put your layout code here
+	=========================================== */
+.homebox{
+	display: flex;
+	flex-direction: row;
+
+}
+.homebox__left{
+	width: 50%;
+	margin-right: 5rem;
+}
+.homebox__right{
+	width: 50%;
+}
+
+.home .button--cta{
+    margin-left: auto;
+    justify-content: flex-end;
+
+}
+
+
+.main__bottomlinks{
+     display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+
+} 
+.main__bottomlinks .wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.main__bottomlinks .bottomlink{
+    margin-right:0.5rem;
+    flex-grow:1;
+}
+.main__breads .button--cta{
+	display:flex;
+    justify-content: flex-end;
+    flex-shrink: 1;
+    width: 34%;
+
+}

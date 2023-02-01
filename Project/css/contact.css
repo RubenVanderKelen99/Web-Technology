@@ -1,0 +1,195 @@
+/**
+* Sabroso contact page style
+* @author Ruben Van der Kele,
+* @version mei 2019
+*/
+
+@import url('fonts.css');
+
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+	display: none;
+}
+
+.contact_flex {
+ 	display: flex;
+	flex-direction: row;
+	flex-flow: nowrap;
+	justify-content: center;
+	height: 218.5em;
+	padding: 0;
+    margin: 5.6em 0 0 0;
+}
+
+.main_content {
+ 	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 0 3.7em 0 3.7em;
+    margin: 0 0 0 0;
+}
+
+.contact_button a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #808080;
+  padding: 1em 2em 1em 2em;
+  font-family: 'Karla', sans-serif;
+}
+
+.contact_button a:hover {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #9900cc;
+  padding: 1em 2em 1em 2em;
+  font-family: 'Karla', sans-serif;
+}
+
+.contact_button a:hover > p {
+  border: 1px solid #9900cc;
+  color: #9900cc;
+  width: 22.1em;
+  height: 1.8em;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.contact_button a > p {
+  border: 1px solid #808080;
+  width: 22.1em;
+  height: 1.8em;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.profile_picture {
+	width: 24.1em;
+	height: 23.9em;
+	max-height: 100%;
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+.dots {
+	width: 4.5em;
+	max-width: 100%;
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.main_content .description {
+	width: 57em;
+	max-width: 100%;
+}
+
+.contact_2 {
+	width: 79.9em;
+	height: 53.5;
+}
+
+.contact_form > textarea {
+	width: 62em;
+	height: 17em;
+}
+
+.contact_form > input{
+	width: 61em;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 0 3.7em 0 0;
+    margin: 0 0 0 0;
+    text-align: center; 
+
+}
+
+.sidebar_image {
+	width: 29.7em;
+	max-width: 100%;
+}
+
+#profile_name {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.8em;
+}
+
+.about_me {
+	padding-bottom: 4.6em;
+	border-bottom: 0.1em solid gainsboro;
+}
+
+
+.social {
+	padding-top: 4.6em;
+	padding-bottom: 4.6em;
+	border-bottom: 0.1em solid gainsboro;
+	width: 42.2em;
+	max-width: 100%;
+}
+
+.social ul{
+	list-style: none;
+}
+
+.social ul > li > a  > img{
+	max-width:100%;
+}
+
+
+.social  ul > li {
+	margin-right: 1.7em;
+}
+
+
+.sidebar_social {
+	display: flex;
+	flex-direction: row;
+	flex-flow: nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 1.7em;
+	padding: 0;
+    margin: 4.1em 0 0 0;
+}
+
+.categories {
+	padding-top: 4.6em;
+	padding-bottom: 4.6em;
+	border-bottom: 0.1em solid gainsboro;
+	width: 42.2em;
+	max-width: 100%;
+}
+
+.categories .subtitle  {
+	text-align: left;
+}
+
+.instagram {
+	padding-top: 4.6em;
+	padding-bottom: 4.6em;
+	border-bottom: 0.1em solid gainsboro;
+	width: 42.2em;
+	max-width: 100%;
+}
+
+.instagram img {
+	width: 27.3em;
+	max-width: 100%;
+}
+
+.latest_posts {
+	padding-bottom: 4.6em;
+	border-bottom: 0.1em solid gainsboro;
+	width: 42.2em;
+	max-width: 100%;
+	margin-bottom: 
+}

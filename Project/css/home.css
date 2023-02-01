@@ -1,0 +1,204 @@
+/**
+* Sabroso home page style
+* @author Ruben Van der Kele,
+* @version mei 2019
+*/
+
+@import url('fonts.css');
+
+* {
+  box-sizing: border-box;
+}
+
+.promotie {
+  position: relative;
+  margin-bottom: 5.2em;
+  margin-top: 2.6em; /* items stacken (mogelijk met float??? -> responsive)*/
+}
+
+.promotie img {
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	width: 181.7em;
+  	height: 75.6em;
+}
+
+.promotie_box {
+  background-color: #FFF;
+  padding: 3em;
+  width: 45.5em;
+  border-radius: 1.5em; /*rounded corners css3*/
+  position: absolute; /* items stacken*/
+  bottom: 28.1em;
+  left: 72em;
+}
+
+.promotie_box p, .promotie_box h3{
+	text-align: center;
+	align-self: center;
+}
+
+.contact_flex {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	height: 41.7em;
+	width: 189.7em;
+	padding: 0;
+  margin: 0 0 5em 0;
+  background-color: #f2f2f2;
+}
+
+.contact1 {
+	width: 30%;
+	padding: 4.8em;
+}
+
+.contact2 {
+	width: 30%;
+	padding: 4.8em;
+}
+
+.contact3 {
+	width: 30%;
+	padding: 4.8em;
+}
+
+
+
+.dish1_img > img {
+	width: 55.7em;
+	max-width:100%;
+}
+
+.dish1_flex {
+ 	display: flex;
+	flex-direction: row;
+	flex-flow: nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 36.6em;
+	padding: 0;
+    margin: 0 0 5em 0;
+}
+
+.dish1_text {
+	width: 52.2em;
+	text-align: center;
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	align-self: center;
+	word-wrap: break-word;
+}
+
+.dish2_img > img {
+	width: 111.4em;
+	margin-top: 10em;
+	max-width:100%;
+}
+
+.dish2_text {
+	width: 111.4em;
+	text-align: center;
+	align-self: center;
+	word-wrap: break-word;
+}
+
+.dish2_flex { /*voor flexbox column geen justify-content: center;! */
+ 	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 0;
+    margin: 0 0 5em 0;
+}
+
+.clearfix::after {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+/* enorm ingewikkeld --> beter proberen met flexbox*/
+
+/*.contact1 {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+  background-color: #f2f2f2;
+  margin-bottom: 5.3em;
+}
+
+.contact2 {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+  background-color: #f2f2f2;
+  margin-bottom: 5.3em;
+}
+
+.contact3 {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+  background-color: #f2f2f2;
+  margin-bottom: 5.3em;
+}
+
+
+/*.dish1 img {
+  float: left;
+  width: 55.8em;
+  margin-left: 39.9em;
+  margin-right: 3.3em
+
+
+}
+
+.dish1 p, .dish1 h3 {
+  align-self: center;
+  text-align: center;
+  clear: both;
+}
+
+.dish1 h3 {
+  font-size: 3em;
+}
+
+.dish1 p {
+  font-size: 1.6em;
+  margin-right: 2.49375em;
+}
+
+.dish2 {
+  margin-top: 31.2em;
+  margin-left: 39.9em;
+}
+
+.dish2 p, .dish2 h3 {
+  align-self: center;
+  text-align: center;
+  float: left;
+}
+
+
+.dish2 img {
+  align-self: center;
+  text-align: center;
+  width: 55.8em;
+  margin-right: 39.9em;
+  margin-left: 3.3em;
+
+}
+
+.dish2 h3 {
+  font-size: 3em;
+}
+
+.dish2 p {
+  font-size: 1.6em;
+}*/

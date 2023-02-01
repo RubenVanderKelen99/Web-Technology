@@ -1,0 +1,9 @@
+* {
+	font-family: Arial;
+}
+h3 + p {
+	color: #009;
+}
+body > ul {
+	background-color: #ddd;
+}
